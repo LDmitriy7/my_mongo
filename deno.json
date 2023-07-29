@@ -1,0 +1,6 @@
+{
+  "fmt": { "semiColons": false },
+  "tasks": {
+    "test": "deno run -A test.ts"
+  }
+}
