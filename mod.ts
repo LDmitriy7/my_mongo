@@ -19,7 +19,7 @@ export function connectToMongo(db: string, host: string, password: string) {
 
 export function connectToMongoFromEnv(keys: MongoEnvKeys = {}) {
   connectToMongo(
-    getMongoPassword(keys.password),
+    getMongoDb(keys.password),
     getMongoHost(keys.host),
     getMongoPassword(keys.db),
   )
