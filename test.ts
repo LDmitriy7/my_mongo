@@ -1,4 +1,4 @@
-import { connectToMongoFromEnv } from "./mod.ts"
+import { connectToMongoFromEnv } from "./mod.ts";
 
-connectToMongoFromEnv()
-console.log("Connected")
+connectToMongoFromEnv();
+console.log("Connected");
